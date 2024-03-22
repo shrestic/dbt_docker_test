@@ -31,5 +31,3 @@ ENTRYPOINT ["dbt"]
 
 FROM base as dbt-snowflake
 RUN pip install dbt-core dbt-snowflake
-
-CMD ["run"]
