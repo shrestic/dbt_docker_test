@@ -2,6 +2,9 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
+Before running the following command:
+- docker run -v /your-local-path/dbt_docker_test:/usr/app/dbt -v /your-local-path/.dbt:/root/.dbt -it dbt-snowflake-image:latest run --profiles-dir /root/.dbt
+
 Try running the following commands:
 - dbt run
 - dbt test
