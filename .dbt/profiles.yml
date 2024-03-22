@@ -1,13 +1,13 @@
-default:
-  outputs:
+dbt-snowflake:
+target: dev
+outputs:
     dev:
       account: cvbxtzt-nj53246
       database: raw
       password: Shroud1==++
-      role:
+      role: dev
       schema:
       threads: 4
       type: snowflake
       user: shrestic
       warehouse: transforming
-  target: dev
